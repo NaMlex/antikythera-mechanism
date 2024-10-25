@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color : #233832;
+    --highlight-color: #13d5dc;
+    --background-color: #352e22;
+    --text-color: #b9c3d9;
+    }
+
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 3px 3px 0 black;
+    padding-bottom: 15px;
+}
+
+header a {
+    text-decoration: none;
+
+}
+
+#logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+/* Navigation */
+
+nav a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 10px;
+    color: white;
+    font-size: 60;
+}
+
+nav a:hover {
+    color: var(--highlight-color);
+}
+
+/* Main content */
+
+body {
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+main {
+    margin-top: 50px;
+}
+
+
+.cover-text {
+    background: url("/assets/images/The-Antikythera-Mechanism main.jpg") no-repeat center center/cover;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 384px;
+    height: 384px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cover-text h1 {
+    text-align: center;
+    background-color: rgb(0,0,0, 0.6);
+}
+
+.mechanism {
+    padding-bottom: 20px;
+    color: var(--text-color);
+}
+
+.mechanism h2 {
+    text-align: center;
+}
+
+#image{
+    width: 348px;
+    height: 213px;
+    padding-left: 30px;
+}
+
+.origin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--text-color);
+}
+
+.origin h3 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+    box-shadow: 0 -3px 3px 0 black;
+}
+
+footer i{
+    color: var(--text-color);
+    font-size: 30px;
+}
