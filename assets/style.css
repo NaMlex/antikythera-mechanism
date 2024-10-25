@@ -23,7 +23,6 @@ header {
 
 header a {
     text-decoration: none;
-
 }
 
 #logo {
@@ -89,7 +88,7 @@ main {
     text-align: center;
 }
 
-#image{
+#image {
     width: 348px;
     height: 213px;
     padding-left: 30px;
@@ -112,7 +111,61 @@ footer {
     box-shadow: 0 -3px 3px 0 black;
 }
 
-footer i{
+footer i {
     color: var(--text-color);
     font-size: 30px;
+}
+
+
+@media screen and (min-width: 576px ){
+    #image {
+        width: 564px;
+        height: 385px;
+        padding-left: 15px;
+    }
+
+    .cover-text {
+        width: 576px;
+    }
+
+    .mechanism {
+        padding-left: 20px;
+        padding-right: 20px;
+    }   
+
+    .origin {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 768px ){
+    
+    header  {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #logo {
+        padding-bottom: 5px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #image {
+        width: 696px;
+        height: 427px;
+        padding-left: 70px;
+    }
+
+    .cover-text {
+        width: 768px;
+    }
+
 }
