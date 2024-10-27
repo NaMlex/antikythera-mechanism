@@ -141,6 +141,7 @@ footer i {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--text-color);
 }
 
 .signup form {
@@ -154,6 +155,8 @@ footer i {
     margin-top: 20px;
     margin-left: 110px;
     font-size: 15px;
+    color: var(--text-color);
+    background-color: var(--primary-color)
 }
 
 #first-name, #last-name, #email {
@@ -253,3 +256,17 @@ footer i {
     }
 
 }
+
+@media screen and (min-width: 1200px ) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #image{
+        width: 30vw;
+        height: 20vw;
+    }
+}
+
