@@ -57,13 +57,6 @@ body {
     
 } 
 
-main {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-}
-
 .cover-text {
     background: url("/assets/images/The-Antikythera-Mechanism main.jpg") no-repeat center center/cover;
     display: flex;
@@ -128,11 +121,20 @@ footer i {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 80px;
 }
 
 .pictures img {
     width: 100%;
 }
+
+/* Sign Up */
+.signup {
+    background: url(/assets/images/The-Antikythera-Mechanism\ main.jpg) no-repeat center center/cover;
+    padding-top: 30px;
+    justify-content: center;
+}
+
 
 @media screen and (min-width: 576px ){
     #image {
@@ -178,7 +180,6 @@ footer i {
         justify-content: flex-end;
     }
     
-
     .cover-text h1 {
         text-align: center;
     }
@@ -200,7 +201,9 @@ footer i {
 }
 
 @media screen and (min-width: 992px ) {
-     .cover-text h1 {
+     
+    
+    .cover-text h1 {
         text-align: center;
      }
 
@@ -208,22 +211,6 @@ footer i {
         width: 33%;
     }
 
-    .contaiiner {
-        display: flex;
-        flex-flow: column wrap;
-    }
-
-    .mechanism {
-        width: 20%;
-    }
-
-    .fragments {
-        width: 20%;
-    }
-
-    .origin {
-        width: 20%;
-    }
 }
 
 
@@ -232,20 +219,31 @@ footer i {
        text-align: center;
     }
 
-    .contaiiner {
+    .container {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
     }
 
-    .mechanism >div {
-       flex: 1;
+    .mechanism {
+        width: 30%;
+        order: 0;
+        padding-left: 20px;
     }
 
     .fragments {
-        order: 0;
+        order: 1;
+    }
+
+    .image{
+        width: 100px;
+        height: 100px;
     }
 
     .origin {
+        width: 30%;
         order: 3;
     }
 }
