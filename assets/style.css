@@ -60,7 +60,7 @@ body {
 } 
 
 .cover-text {
-    background: url("/assets/images/The-Antikythera-Mechanism-main.jpg") no-repeat center center/cover;
+    background: url("../assets/images/The-Antikythera-Mechanism-main.jpg") no-repeat center center/cover;
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -136,7 +136,7 @@ footer i {
 /* Sign Up */
 
 .signup {
-    background: url("/assets/images/The-Antikythera-Mechanism-main.jpg") no-repeat center center/cover;
+    background: url("../assets/images/The-Antikythera-Mechanism-main.jpg") no-repeat center center/cover;
     padding-top: 100px;
     display: flex;
     justify-content: center;
