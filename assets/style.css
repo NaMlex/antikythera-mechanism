@@ -10,10 +10,11 @@
     --background-color: #352e22;
     --text-color: #b9c3d9;
     --font-family: "Helvetica";
-    }
+}
 
 
 /* Header */
+
 header {
     background-color: var(--primary-color);
     position: fixed;
@@ -24,7 +25,6 @@ header {
 
 header a {
     text-decoration: none;
-    
 }
 
 #logo {
@@ -85,8 +85,7 @@ body {
 
 .mechanism h2 {
     text-align: center;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px; 
 }
 
 #image {
@@ -122,6 +121,7 @@ footer i {
 }
 
 /* Gallery */
+
 .gallery {
     display: flex;
     flex-direction: column;
@@ -134,16 +134,35 @@ footer i {
 }
 
 /* Sign Up */
+
 .signup {
-    background: url(/assets/images/The-Antikythera-Mechanism\ main.jpg) no-repeat center center/cover;
-    padding-top: 30px;
+    background: url("/assets/images/The-Antikythera-Mechanism\ main.jpg") no-repeat center center/cover;
+    padding-top: 100px;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
+.signup form {
+    background-color: rgb(0,0,0, 0.6);
+    padding: 100px;
+    margin-top: 200px;
+    margin-bottom: 300px; 
+}
+
+.signup-btn {
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 15px;
+}
+
+#first-name, #last-name, #email {
+    width: 100%;
+    padding-bottom: 5px;
+}
 
 @media screen and (min-width: 576px ){
     
-
     .mechanism {
         padding-left: 20px;
         padding-right: 20px;
@@ -153,6 +172,12 @@ footer i {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+.signup form {
+    height: 476px;
+    width: 476px;
+}
+
 }
 
 @media screen and (min-width: 768px ){
@@ -199,7 +224,6 @@ footer i {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        
     }
 
     .mechanism {
@@ -215,7 +239,6 @@ footer i {
     }
 
     #image{
-        
         width: 40vw;
         height: 30vw;
     }
