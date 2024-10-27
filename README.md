@@ -1,6 +1,6 @@
 # antikythera-mechanism
 
-Welcome to [The Antikythera mechanism](https://namlex.github.io/antikythera-mechanism)
+Welcome to **The Antikythera mechanism.**
 
 The Antikythera mechanism is a website design for people intrested in the oldest known example of an analogue computer.
 
@@ -51,6 +51,8 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 
 ##### Deployment 
 The website was deployed to github pages.
+
+[The Antikythera mechanism](https://namlex.github.io/antikythera-mechanism)
 
 
 
