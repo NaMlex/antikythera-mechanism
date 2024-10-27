@@ -9,6 +9,7 @@
     --highlight-color: #13d5dc;
     --background-color: #352e22;
     --text-color: #b9c3d9;
+    --font-family: "Helvetica";
     }
 
 
@@ -23,6 +24,7 @@ header {
 
 header a {
     text-decoration: none;
+    
 }
 
 #logo {
@@ -31,6 +33,7 @@ header a {
     color: var(--text-color);
     font-size: 20px;
     padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 /* Navigation */
@@ -38,7 +41,7 @@ header a {
 nav a {
     text-decoration: none;
     padding-left: 15px;
-    padding-right: 10px;
+    padding-right: 20px;
     color: white;
     font-size: 60;
 }
@@ -54,7 +57,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
 } 
 
 .cover-text {
@@ -67,24 +69,24 @@ body {
     flex-direction: column;
     justify-content: center;
     color: var(--text-color);
-    
 }
 
 .cover-text h1 {
     background-color: rgb(0,0,0, 0.6); 
-    background-size: contain;
     text-align: center;
 }
 
 .mechanism {
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 20px;
 }
 
 .mechanism h2 {
     text-align: center;
+    padding-bottom: 20px;
+    
 }
 
 #image {
@@ -92,16 +94,19 @@ body {
     min-height: 214px;
     width:100vw;
     height: 100vw;
-    padding-left: 30px;
+    padding: 10px;
 }
 
 .origin {
     padding: 20px;
     color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 20px;
 }
 
 .origin h3 {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -137,18 +142,7 @@ footer i {
 
 
 @media screen and (min-width: 576px ){
-    #image {
-        width: 564px;
-        height: 385px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .cover-text h1 {
-        text-align: center;
-        color: var(--text-color);
-    }
+    
 
     .mechanism {
         padding-left: 20px;
@@ -180,10 +174,6 @@ footer i {
         justify-content: flex-end;
     }
     
-    .cover-text h1 {
-        text-align: center;
-    }
-
     .image {
         align-items: center;
     }
@@ -193,32 +183,17 @@ footer i {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        padding-top: 50px;
     }
 
     .pictures img {
+        margin-top: 0;
         width: 49%;
     }
 }
 
 @media screen and (min-width: 992px ) {
      
-    
-    .cover-text h1 {
-        text-align: center;
-     }
-
-     .pictures img {
-        width: 33%;
-    }
-
-}
-
-
-@media screen and (min-width: 1200px ) {
-    .cover-text h1 {
-       text-align: center;
-    }
-
     .container {
         display: flex;
         flex-direction: row;
@@ -235,16 +210,23 @@ footer i {
 
     .fragments {
         order: 1;
+        display: flex;
+        align-items: center;
     }
 
-    .image{
-        width: 100px;
-        height: 100px;
+    #image{
+        
+        width: 40vw;
+        height: 30vw;
     }
 
     .origin {
         width: 30%;
-        order: 3;
+        order: 2;
     }
-}
 
+     .pictures img {
+        width: 33%;
+    }
+
+}
