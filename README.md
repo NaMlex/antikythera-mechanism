@@ -58,7 +58,7 @@ No errors were returned when passing through the official W3C validator
 CSS
 No errors were returned when passing through the official Jigsaw validator
 
-** Accessibility **
+Accessibility 
 
 I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
@@ -78,7 +78,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 [View the githup repo here](https://github.com/NaMlex/antikythera-mechanism)
 
 ##### Credits
-** Content **
+Content
 The text for the Home Page was taken from Wikipedia
 Instructions on how to implement the form validation sign up was taken from the Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
 
